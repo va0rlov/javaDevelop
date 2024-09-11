@@ -18,4 +18,8 @@ public class Puzzle {
         }
 
     }
+
+    public static void setCondition(boolean condition) {
+        Puzzle.condition = condition;
+    }
 }
